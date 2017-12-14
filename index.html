@@ -1,57 +1,191 @@
 <!DOCTYPE HTML>
-
+<!--
+	@Version 12/13/17
+-->
 <html>
 	<head>
 		<title>Karthik Shankar</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
-
-		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<ul class="icons">
+						<li><a href="https://github.com/karthikshankar" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:karthik5@illinois.edu?" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/karthik-shankar-453453153/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+					</ul>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="Karthik Face" /></span>
 					<h1 id="logo"><a href="#">Karthik Shankar</a></h1>
 					<p>My interests include coding, reading, traveling and photography.</p>
 				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Accomplishments</a></li>
-						<li><a href="#three">Experience + Projects</a></li>
-						<li><a href="#five">Leadership + Volunteer Experience</a></li>
-						<li><a href="#six">Skills</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#two">Experience</a></li>
+						<li><a href="#three">Projects + Activities</a></li>
+						<li><a href="#four">Skills</a></li>
+						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-					</ul>
-				</footer>
 			</section>
 			<div id="wrapper">
 					<div id="main">
+
 							<section id="one">
 								<div class="container">
 									<header class="major">
 										<h2>Karthik Shankar</h2>
-										<p>Computer Science Student at the<br/>
+										<p>Class of 2021 - Computer Science Student at the<br/>
 										<a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>.</p>
 									</header>
-									<p>My name is Karthik Shankar and I am currently pursuing a degree in Computer Science + Statistics at the University of Illinois at Urbana-Champaign.</p>
+									<p>My name is Karthik Shankar and I am currently pursuing a degree in Computer Science + Statistics at the University of Illinois at Urbana-Champaign. I love to build and create new things. In my free time, I am always coming up with products and ideas that I want bring to life! </p>
 									<p>
-									I have previously worked as a Software Engineering Intern at Couchbase Inc and currently work as a Software Engineer for Hack4Impact at UIUC. I love to build and create new things. In my free time, I am always coming up with products and ideas to bring to life! 
+									I have previously worked as a Software Engineering Intern at Couchbase Inc and currently work as a Software Engineer for Hack4Impact UIUC. In the future, I hope to get into the fields of Data Science and Analytics, Artificial Intelligence and Cyber Sercurity.
 									</p>
-									<p>
-									I also love to play the Hindustani Classical Instrument known as the Tabla in my free time, and have been playing and giving concerts from a young age.
-									</p>
+									<div class="row uniform">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" class="special" value="Download Resume" onclick = "window.location.href='https://drive.google.com/file/d/1eUTXCiE1juXhlnZyu5oKnrLuJqF7tg4S/view?usp=sharing'"/></li>
+												</ul>
+											</div>
+									</div>
+								</div>
+							</section>
+
+							<section id="two">
+								<div class="container">
+									<h3>Experience</h3>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="Hack4Impact" /></a>
+											<div class="inner">
+												<h4>Hack4Impact - UIUC | October 2017 - Current</h4>
+												<p>Working on creating an educational tool which provides map visualization, historical event timeline and story visualization panels. Currently using Flask and Python to create Back-End API Endpoints and working with ReactJs and Bootstrap to make Front-End Info Panel interface.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="Couchbase" /></a>
+											<div class="inner">
+												<h4>Couchbase Inc. | Mountain View, CA | Summer 2016</h4>
+												<p>Worked as a paid summer intern on the Couchbase platform, where I created Python automation scripts to transpose data into database buckets. I also fixed bugs in the UI and created visualization tables to store and display Virtual Machine Data.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="Illini Hackers" /></a>
+											<div class="inner">
+												<h4>Illini Hackers | September 2017 - Current</h4>
+												<p>Currently woking on Systems Staff for Illini Hackers, specifically working on coding and designing website for HackIllinois (UIUC’s Hackathon) this March. I am working with React.js, BootStrap, JavaScript, HTML and CSS to do so.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+						</section>
+
+						<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h3>Projects + Activities</h3>
+								<p>These are recent endeavors taken on over the last few years, which have helped get my hands dirty.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+								<h4>X-Cram: Boilermake Hacks</h4>
+								<p>Built Educational Open-Source API Platform used for loading online API’s in an effort to create a week-long individualized study plan for any user. Currently works with Khan Academy's online API. (More info at: <a href = "https://devpost.com/software/x-cram"/>X-Cram)</a></p>
+								</li>
+								<li class="icon fa-laptop">
+									<h4>BackBeat Project: Revolutionary Metronome</h4>
+									<p>Created web application to assist musicians in categorizing and manipulating beat-count. It was created to help musicians better track and understand the tempo of their music recordings.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Musical Notes Database Website</h3>
+									<p>Website created with incorporation of search fields and word recognition to easily store and locate musical notes for Indian Drum music class.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>ADSA Workshops Committee</h3>
+									<p>Working on teaching lessons on Data Science + Analytics topics such as Machine Learning, Python and Data Visualization; creating Jupyter Notebooks to facilitate learning with students</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>AP Computer Science Student Tutor</h3>
+									<p>Tutored students outside and inside the AP Computer Science and Java Programming Classes at Monta Vista High School.</p>
+								</li>
+
+								<li class="icon fa-code">
+									<h4>President of Architecture, Construction, Engineering and Design Club</h4>
+									<p>Worked on creating workshops on engineering + design principles and research opportunities for members at Monta Vista High School.</p>
+								</li>
+							</ul>
+						</div>
+						</section>
+
+							<section id="four">
+								<div class="container">
+									<h3>Skills</h3>
+									<h5>Languages</h5>
+									<ul class="feature-icons">
+										<li class="fa-code">Java</li>
+										<li class="fa-code">JavaScript</li>
+										<li class="fa-code">HTML</li>
+										<li class="fa-code">CSS</li>
+										<li class="fa-code">N1QL</li>
+										<li class="fa-code">Python</li>
+										<li class="fa-code">Objective C</li>
+									</ul>
+									<h5>Frameworks</h5>
+									<ul class="feature-icons">
+										<li class="fa-code">React.js</li>
+										<li class="fa-code">Flask</li>
+										<li class="fa-code">Android</li>
+										<li class="fa-code">Bootstrap</li>
+									</ul>
+									<h5>Databases</h5>
+									<ul class="feature-icons">
+										<li class="fa-code">Couchbase (No-SQL)</li>
+										<li class="fa-code">MongoDB (No-SQL)</li>
+										<li class="fa-code">PostgreSQL</li>
+										<li class="fa-code">Firebase</li>
+									</ul>
+									<h5>Tools</h5>
+									<ul class="feature-icons">
+										<li class="fa-book">Excel Pivot Tables</li>
+										<li class="fa-book">Postman</li>
+									</ul>
+								</div>
+							</section>
+
+							<section id="five">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<h4>Email</h4>
+									<a href="mailto:karthik5@illinois.edu?" class="icon fa-envelope"><span class="label">Email</span></a>
+									<p>karthik5@illinois.edu</p>
+									<h4>Github Username</h4>
+									<a href="https://github.com/karthikshankar" class="icon fa-github"><span class="label">Github</span></a>
+									<p>karthikshankar</p>
+									<h4>Linked In</h4>
+									<a href="https://www.linkedin.com/in/karthik-shankar-453453153/" class="icon fa-linkedin"><span class="label">Linkedin</span></a>
+									<p>karthik-shankar</p>
+									<h4>Phone Number</h4>
+									<p>(408) 887-2412</p>
+									<h4>Address</h4>
+									<p>22240 Varian Way, Cupertino, CA</p>
 								</div>
 							</section>
 					</div>
+					<section id="footer">
+						<div class="container">
+						</div>
+					</section>
+
 			</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
