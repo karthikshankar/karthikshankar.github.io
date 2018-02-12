@@ -10,21 +10,21 @@
     },
     {
       "name": "Los Angeles Clippers",
-      "attack": 60,
+      "attack": 25,
       "defense": 25,
-      "health": 40
-    },
-    {
-      "name": "Los Angeles Lakers",
-      "attack": 50,
-      "defense": 35,
       "health": 30
     },
     {
-      "name": "Phoenix Suns",
-      "attack": 20,
-      "defense": 25,
+      "name": "Los Angeles Lakers",
+      "attack": 15,
+      "defense": 20,
       "health": 20
+    },
+    {
+      "name": "Phoenix Suns",
+      "attack": 10,
+      "defense": 15,
+      "health": 15
     },
     {
       "name": "Houston Rockets",
@@ -34,15 +34,15 @@
     },
     {
       "name": "New Orleans Pelicans",
-      "attack": 55,
-      "defense": 50,
-      "health": 45
+      "attack": 30,
+      "defense": 35,
+      "health": 30
     },
     {
       "name": "San Antonio Spurs",
-      "attack": 60,
-      "defense": 85,
-      "health": 75
+      "attack": 40,
+      "defense": 30,
+      "health": 40
     },
     {
       "name": "Cleveland Cavs",
