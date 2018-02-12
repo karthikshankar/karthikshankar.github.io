@@ -1,0 +1,271 @@
+{
+  "startingRoom": "Oracle Arena",
+  "endingRoom": "Naismith Memorial",
+  "monsters": [
+    {
+      "name": "Chicago Bulls",
+      "attack": 15,
+      "defense": 30,
+      "health": 25
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "attack": 60,
+      "defense": 25,
+      "health": 40
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "attack": 50,
+      "defense": 35,
+      "health": 30
+    },
+    {
+      "name": "Phoenix Suns",
+      "attack": 20,
+      "defense": 25,
+      "health": 20
+    },
+    {
+      "name": "Houston Rockets",
+      "attack": 90,
+      "defense": 60,
+      "health": 90
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "attack": 70,
+      "defense": 50,
+      "health": 60
+    },
+    {
+      "name": "San Antonio Spurs",
+      "attack": 60,
+      "defense": 85,
+      "health": 75
+    },
+    {
+      "name": "Cleveland Cavs",
+      "attack": 95,
+      "defense": 45,
+      "health": 70
+    }
+  ],
+  "player": {
+    "name": "Golden State Warriors",
+    "items": [
+    ],
+    "attack": 50,
+    "defense": 50,
+    "health": 50,
+    "level": 1
+  },
+  "rooms": [
+    {
+      "name": "Oracle Arena",
+      "description": "You are in the home of the defending champs, the Golden State Warriors, which is located in Oakland, California. The Warriors have been in the finals for three straight years, working towards greatness.",
+      "items": [
+        {
+          "name": "KD-Iso",
+          "damage": 85
+        },
+        {
+          "name": "Steph-Three",
+          "damage": 80
+        },
+        {
+          "name": "Pick-Pop",
+          "damage": 85
+        },
+        {
+          "name": "Elevator-Screen",
+          "damage": 90
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "United Center"
+        },
+        {
+          "directionName": "Southeast",
+          "room": "Pacific Division Arenas"
+        }
+      ],
+      "monstersInRoom": [
+        "Golden State Warriors"
+      ]
+    },
+    {
+    "name": "United Center",
+      "description": "The United Center is home to the Chicago Bulls. The United Center, sponsored by United Airlines, has the most history of any area in the league, once housing the greatest basketball player to ever step on the court.",
+      "items": [
+        {
+          "name": "Lauri-Three",
+          "damage": 30
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "Pacific Division Arenas"
+        },
+        {
+          "directionName": "West",
+          "room": "Toyota Center"
+        },
+        {
+          "directionName": "East",
+          "room": "Golden State Warriors"
+        },
+        {
+          "directionName": "Northeast",
+          "room": "Southwest Division Arenas"
+        }
+      ],
+      "monstersInRoom": [
+        "Chicago Bulls"
+      ]
+    },
+    {
+      "name": "Pacific Division Arenas",
+      "description": "This group of Arenas is home to the Los Angeles Clippers, Phoenix Suns, and Los Angeles Lakers. The Pacific Division is currently one of the weakest divisions in the National Basketball Association, with the exception of housing the Golden State Warriors.",
+      "items": [
+        {
+          "name": "DBook-Iso",
+          "damage": 40
+        },
+        {
+          "name": "DJ-Block",
+          "damage": 35
+        },
+        {
+          "name": "Kuzma-Buckets",
+          "damage": 20
+        },
+        {
+          "name": "Lonzo-Pass",
+          "damage": 15
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "United Center"
+        },
+        {
+          "directionName": "Northwest",
+          "room": "Oracle Arena"
+        },
+        {
+          "directionName": "Northeast",
+          "room": "Toyota Center"
+        }
+      ],
+      "monstersInRoom": [
+        "Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns"
+      ]
+    },
+    {
+      "name": "Toyota Center",
+      "description": "You are in Toyota Center, home of the Houston Rockets. The Toyota Center is located in the center of the vibrant city of Houston, Texas.",
+      "items": [
+        {
+          "name": "Harden-Euro",
+          "damage": 75
+        },
+        {
+          "name": "CP3-Pass",
+          "damage": 70
+        },
+        {
+          "name": "Trace",
+          "damage": 65
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "Southwest Division Arenas"
+        },
+        {
+          "directionName": "East",
+          "room": "United Center"
+        },
+        {
+          "directionName": "West",
+          "room": "Quicken Loans Arena"
+        },
+        {
+          "directionName": "Southeast",
+          "room": "Pacific Division Arenas"
+        }
+      ],
+      "monstersInRoom": [
+        "Houston Rockets"
+      ]
+    },
+    {
+      "name": "Southwest Division Arenas",
+      "description": "This group of arenas is home to the New Orleans Pelicans and San Antonio Spurs. It is one of the stronger divisions in the league, home to one of the all-time greatest organizations in the San Antonio Spurs.",
+      "items": [
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "Toyota Center"
+        },
+        {
+          "directionName": "Southwest",
+          "room": "United Center"
+        },
+        {
+          "directionName": "Southeast",
+          "room": "Quicken Loans Arena"
+        }
+      ],
+      "monstersInRoom": [
+        "New Orleans Pelicans, San Antonio Spurs"
+      ]
+    },
+    {
+      "name": "AT&T Center",
+      "description": "You have reached the home of the greatest coach in the world. This feared arena is the final destination of most teams on the road to the finals.",
+      "items": [
+        {
+          "name": "Lebron",
+          "damage": 80
+        },
+        {
+          "name": "TriangleO",
+          "damage": 20
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "Toyota Center"
+        },
+        {
+          "directionName": "Northwest",
+          "room": "Southwest Division Arenas"
+        }
+      ],
+      "monstersInRoom": [
+        "Cleveland Cavs"
+      ]
+    },
+    {
+      "name": "Naismith Memorial",
+      "description": "You have reached the final destination: the basketball hall of fame, housing only the greatest players and teams of all time.",
+      "items": [
+      ],
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "Quicken Loans Arena"
+        }
+      ]
+    }
+  ]
+}
