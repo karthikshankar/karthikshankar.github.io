@@ -28,15 +28,15 @@
     },
     {
       "name": "Houston Rockets",
-      "attack": 90,
+      "attack": 70,
       "defense": 60,
-      "health": 90
+      "health": 55
     },
     {
       "name": "New Orleans Pelicans",
-      "attack": 70,
+      "attack": 55,
       "defense": 50,
-      "health": 60
+      "health": 45
     },
     {
       "name": "San Antonio Spurs",
@@ -46,18 +46,18 @@
     },
     {
       "name": "Cleveland Cavs",
-      "attack": 95,
+      "attack": 60,
       "defense": 45,
-      "health": 70
+      "health": 55
     }
   ],
   "player": {
     "name": "Golden State Warriors",
     "items": [
     ],
-    "attack": 50,
-    "defense": 50,
-    "health": 50,
+    "attack": 80,
+    "defense": 70,
+    "health": 80,
     "level": 1
   },
   "rooms": [
@@ -67,19 +67,19 @@
       "items": [
         {
           "name": "KD-Iso",
-          "damage": 85
+          "damage": 55
         },
         {
           "name": "Steph-Three",
-          "damage": 80
+          "damage": 60
         },
         {
           "name": "Pick-Pop",
-          "damage": 85
+          "damage": 40
         },
         {
           "name": "Elevator-Screen",
-          "damage": 90
+          "damage": 50
         }
       ],
       "directions": [
@@ -172,15 +172,15 @@
       "items": [
         {
           "name": "Harden-Euro",
-          "damage": 75
+          "damage": 50
         },
         {
           "name": "CP3-Pass",
-          "damage": 70
+          "damage": 45
         },
         {
           "name": "Trace",
-          "damage": 65
+          "damage": 40
         }
       ],
       "directions": [
@@ -234,11 +234,11 @@
       "items": [
         {
           "name": "Lebron",
-          "damage": 80
+          "damage": 70
         },
         {
           "name": "TriangleO",
-          "damage": 20
+          "damage": 10
         }
       ],
       "directions": [
