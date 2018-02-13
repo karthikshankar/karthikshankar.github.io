@@ -255,6 +255,10 @@
         {
           "directionName": "Northwest",
           "room": "Southwest Division Arenas"
+        },
+        {
+          "directionName": "East",
+          "room": "Naismith Memorial"
         }
       ],
       "monstersInRoom": [
