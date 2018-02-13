@@ -231,12 +231,12 @@
         }
       ],
       "monstersInRoom": [
-        "Pelicans, Spurs"
+        "Pelicans", "Spurs"
       ]
     },
     {
-      "name": "AT&T Center",
-      "description": "You have reached the home of the greatest coach in the world. This feared arena is the final destination of most teams on the road to the finals.",
+      "name": "Quicken Loans Arena",
+      "description": "You have reached the home of the Cleveland Cavaliers, which house one of the greatest players of all time.",
       "items": [
         {
           "name": "Lebron",
