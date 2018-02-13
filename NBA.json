@@ -103,7 +103,7 @@
       ]
     },
     {
-    "name": "United Center",
+      "name": "United Center",
       "description": "The United Center is home to the Chicago Bulls. The United Center, sponsored by United Airlines, has the most history of any area in the league, once housing the greatest basketball player to ever step on the court.",
       "items": [
         {
@@ -117,11 +117,11 @@
           "room": "Pacific Division Arenas"
         },
         {
-          "directionName": "West",
+          "directionName": "East",
           "room": "Toyota Center"
         },
         {
-          "directionName": "East",
+          "directionName": "West",
           "room": "Golden State Warriors"
         },
         {
@@ -195,15 +195,15 @@
           "room": "Southwest Division Arenas"
         },
         {
-          "directionName": "East",
+          "directionName": "West",
           "room": "United Center"
         },
         {
-          "directionName": "West",
+          "directionName": "East",
           "room": "Quicken Loans Arena"
         },
         {
-          "directionName": "Southeast",
+          "directionName": "Southwest",
           "room": "Pacific Division Arenas"
         }
       ],
