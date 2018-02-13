@@ -3,49 +3,55 @@
   "endingRoom": "Naismith Memorial",
   "monsters": [
     {
-      "name": "Chicago Bulls",
+      "name": "Thunder",
+      "attack": 45,
+      "defense": 30,
+      "health": 40
+    },
+    {
+      "name": "Bulls",
       "attack": 15,
       "defense": 30,
       "health": 25
     },
     {
-      "name": "Los Angeles Clippers",
+      "name": "Clippers",
       "attack": 25,
-      "defense": 25,
+      "defense": 20,
       "health": 30
     },
     {
-      "name": "Los Angeles Lakers",
+      "name": "Lakers",
       "attack": 15,
       "defense": 20,
       "health": 20
     },
     {
-      "name": "Phoenix Suns",
+      "name": "Suns",
       "attack": 10,
       "defense": 15,
       "health": 15
     },
     {
-      "name": "Houston Rockets",
+      "name": "Rockets",
       "attack": 70,
       "defense": 60,
       "health": 55
     },
     {
-      "name": "New Orleans Pelicans",
+      "name": "Pelicans",
       "attack": 30,
       "defense": 35,
       "health": 30
     },
     {
-      "name": "San Antonio Spurs",
+      "name": "Spurs",
       "attack": 40,
       "defense": 30,
       "health": 40
     },
     {
-      "name": "Cleveland Cavs",
+      "name": "Cavaliers",
       "attack": 60,
       "defense": 45,
       "health": 55
@@ -63,7 +69,7 @@
   "rooms": [
     {
       "name": "Oracle Arena",
-      "description": "You are in the home of the defending champs, the Golden State Warriors, which is located in Oakland, California. The Warriors have been in the finals for three straight years, working towards greatness.",
+      "description": "You are in the home of the defending champs, located in Oakland, California. This arena has hosted the NBA finals for the past three years, and is home to a lot of history. It is currently occupied by Russell Westbrook and his OKC Thunder.",
       "items": [
         {
           "name": "KD-Iso",
@@ -93,7 +99,7 @@
         }
       ],
       "monstersInRoom": [
-        "Golden State Warriors"
+        "Thunder"
       ]
     },
     {
@@ -124,7 +130,7 @@
         }
       ],
       "monstersInRoom": [
-        "Chicago Bulls"
+        "Bulls"
       ]
     },
     {
@@ -163,7 +169,7 @@
         }
       ],
       "monstersInRoom": [
-        "Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns"
+        "Clippers", "Lakers", "Suns"
       ]
     },
     {
@@ -202,7 +208,7 @@
         }
       ],
       "monstersInRoom": [
-        "Houston Rockets"
+        "Rockets"
       ]
     },
     {
@@ -225,7 +231,7 @@
         }
       ],
       "monstersInRoom": [
-        "New Orleans Pelicans, San Antonio Spurs"
+        "Pelicans, Spurs"
       ]
     },
     {
@@ -252,7 +258,7 @@
         }
       ],
       "monstersInRoom": [
-        "Cleveland Cavs"
+        "Cavaliers"
       ]
     },
     {
