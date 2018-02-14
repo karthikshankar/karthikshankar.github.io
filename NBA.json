@@ -61,9 +61,9 @@
     "name": "Golden State Warriors",
     "items": [
     ],
-    "attack": 80,
-    "defense": 70,
-    "health": 80,
+    "attack": 60,
+    "defense": 60,
+    "health": 60,
     "level": 1
   },
   "rooms": [
